@@ -1,0 +1,33 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.makerdao.com/deployment-addresses/multi-collateral-dai-public-releases.md
+summary: >-
+  The Maker Protocol has no versioned REST API; its lifecycle is expressed on-chain
+  through Multi-Collateral Dai (MCD) public contract releases, deployment address
+  registries, and documented deprecation/migration paths as modules are superseded.
+  MakerDAO has since rebranded to the Sky Ecosystem (USDS / SKY), with contracts and
+  tooling now maintained under the sky-ecosystem GitHub organization.
+versioning:
+  scheme: on-chain-contract-releases
+  releases_url: https://docs.makerdao.com/deployment-addresses/multi-collateral-dai-public-releases.md
+  notes: >-
+    MCD public releases and per-network deployment addresses are the canonical
+    version record for the protocol contracts.
+deprecation:
+  policy_url: https://docs.makerdao.com/miscellaneous/liquidations-1.2-system-deprecated.md
+  deprecated_modules:
+    - name: Liquidations 1.2 System (Cat/Flipper)
+      status: deprecated
+      superseded_by: Liquidation 2.0 (Dog/Clipper)
+      docs: https://docs.makerdao.com/miscellaneous/liquidations-1.2-system-deprecated.md
+    - name: Single-Collateral Dai (SCD / Sai)
+      status: deprecated
+      superseded_by: Multi-Collateral Dai (MCD)
+      docs: https://docs.makerdao.com/miscellaneous/scd-mcd-migration-detailed-documentation.md
+      migration_guide: https://docs.makerdao.com/miscellaneous/upgrading-to-multi-collateral-dai-guide.md
+  rebrand:
+    to: Sky Ecosystem (USDS / SKY)
+    github_org: https://github.com/sky-ecosystem
+emergency_shutdown:
+  docs: https://docs.makerdao.com/smart-contract-modules/shutdown.md
+  partner_guide: https://docs.makerdao.com/smart-contract-modules/shutdown/emergency-shutdown-for-partners.md

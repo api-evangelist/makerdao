@@ -1,0 +1,102 @@
+# Maker Protocol Technical Docs
+
+## Maker Protocol Technical Docs
+
+- [MakerDAO Technical Docs](https://docs.makerdao.com/readme.md): The Maker Protocol is the platform through which anyone, anywhere can generate the Dai stablecoin against crypto collateral assets. Learn how it works.
+- [Maker Protocol 101](https://docs.makerdao.com/getting-started/maker-protocol-101.md): Getting Started with Maker Protocol
+- [Dai Module](https://docs.makerdao.com/smart-contract-modules/dai-module.md): The DAI token contract and all of the adapters DaiJoin adapters.
+- [Dai - Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/dai-module/dai-detailed-documentation.md): The Dai Token Contract
+- [Core Module](https://docs.makerdao.com/smart-contract-modules/core-module.md): The State of the Maker Protocol
+- [Vat - Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/core-module/vat-detailed-documentation.md): The Maker Protocol's Core Accounting System
+- [Spot - Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/core-module/spot-detailed-documentation.md): The Maker Protocol's liaison between the Oracles and Core Contracts
+- [Collateral Module](https://docs.makerdao.com/smart-contract-modules/collateral-module.md): Adapters and Auction contracts for each specific collateral type
+- [Join - Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/collateral-module/join-detailed-documentation.md)
+- [Liquidation 2.0 Module](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation.md): The Maker Protocol's Collateral Auction House (Liquidation System 2.0)
+- [System Stabilizer Module](https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module.md): Keeping the Maker Protocol Stable
+- [Flapper - Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module/flap-detailed-documentation.md): The Maker Protocol's Surplus Auction House
+- [Flopper - Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module/flop-detailed-documentation.md): The Maker Protocol's Debt Auction House
+- [Vow - Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module/vow-detailed-documentation.md): The Maker Protocol's Balance Sheet
+- [Oracle Module](https://docs.makerdao.com/smart-contract-modules/oracle-module.md): The Maker Protocol's Oracles
+- [Oracle Security Module (OSM) - Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/oracle-module/oracle-security-module-osm-detailed-documentation.md)
+- [Median - Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/oracle-module/median-detailed-documentation.md): The Maker Protocol's trusted reference price
+- [MKR Module](https://docs.makerdao.com/smart-contract-modules/mkr-module.md): The MKR Governance Token Implementation
+- [Governance Module](https://docs.makerdao.com/smart-contract-modules/governance-module.md): The Maker Protocol's Governance Contracts
+- [Spell - Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/governance-module/spell-detailed-documentation.md)
+- [Pause - Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/governance-module/pause-detailed-documentation.md): A delegatecall based proxy with an enforced delay
+- [Chief - Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/governance-module/chief-detailed-documentation.md): Electing a Chief contract via an approval voting system
+- [Rates Module](https://docs.makerdao.com/smart-contract-modules/rates-module.md): The Maker Protocol's Rate Accumulation Mechanism
+- [Pot - Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/rates-module/pot-detailed-documentation.md): The Dai Savings Rate
+- [Jug - Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/rates-module/jug-detailed-documentation.md): Accumulation of Stability Fees for Collateral Types
+- [Proxy Module](https://docs.makerdao.com/smart-contract-modules/proxy-module.md): Allowing Users to interact with the Maker Protocol more easily
+- [Proxy Actions - Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/proxy-module/proxy-actions-detailed-documentation.md): A generalized wrapper for the Maker Protocol
+- [Vote Proxy - Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/proxy-module/vote-proxy-detailed-documentation.md): Allowing MKR users to vote with a hot or cold wallet using a proxy voting identity
+- [CDP Manager - Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/proxy-module/cdp-manager-detailed-documentation.md): Managing Vaults to be transferred between users
+- [DSR Manager - Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/proxy-module/dsr-manager-detailed-documentation.md): The simplest way to integrate DSR in smart contracts
+- [Flash Mint Module](https://docs.makerdao.com/smart-contract-modules/flash-mint-module.md): Enables any user to execute a flash mint of Dai.
+- [Maker Protocol Emergency Shutdown](https://docs.makerdao.com/smart-contract-modules/shutdown.md): Introducing the Shutdown Mechanism of the Maker Protocol
+- [Emergency Shutdown for Partners](https://docs.makerdao.com/smart-contract-modules/shutdown/emergency-shutdown-for-partners.md): How to prepare for ES as a partner
+- [The Emergency Shutdown Process for Multi-Collateral Dai (MCD)](https://docs.makerdao.com/smart-contract-modules/shutdown/the-emergency-shutdown-process-for-multi-collateral-dai-mcd.md)
+- [End - Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/shutdown/end-detailed-documentation.md): Shutdown
+- [ESM - Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/shutdown/emergency-shutdown-module.md): The ESM is the trigger system for the shutdown of the Maker Protocol
+- [MCD Glossaries](https://docs.makerdao.com/other-documentation/system-glossary.md): A list of words, terms, variables, functions and more relating to the Maker Protocol
+- [Smart Contract Annotations](https://docs.makerdao.com/other-documentation/smart-contract-annotations.md): In-line comments on the Maker Protocol's Core Smart Contracts
+- [Maker Protocol Deployments](https://docs.makerdao.com/deployment-addresses/multi-collateral-dai-public-releases.md)
+- [Security for the Maker Protocol](https://docs.makerdao.com/security/security.makerdao.com.md): Ensuring the Security of the Maker Protocol and Multi Collateral Dai
+- [Developer Guides and Tutorials](https://docs.makerdao.com/build/developer-guides-and-tutorials.md)
+- [The Dai Javascript Library of the Maker Protocol](https://docs.makerdao.com/build/dai.js.md): Dai.js is the JavaScript library that helps developers easily build DeFi  applications on top of the Maker Protocol, MakerDAO's platform of smart contracts.
+- [Getting started](https://docs.makerdao.com/build/dai.js/getting-started.md)
+- [Configuration](https://docs.makerdao.com/build/dai.js/maker.md)
+- [Plugins](https://docs.makerdao.com/build/dai.js/maker/plugins.md)
+- [Vault manager](https://docs.makerdao.com/build/dai.js/the-mcd-plugin.md)
+- [Collateral types](https://docs.makerdao.com/build/dai.js/cdptypeservice.md)
+- [Dai Savings Rate](https://docs.makerdao.com/build/dai.js/savingsservice.md)
+- [Currency units](https://docs.makerdao.com/build/dai.js/currency-units.md)
+- [System data](https://docs.makerdao.com/build/dai.js/systemdataservice.md)
+- [Advanced](https://docs.makerdao.com/build/dai.js/advanced-configuration.md)
+- [Transaction manager](https://docs.makerdao.com/build/dai.js/advanced-configuration/transactions.md)
+- [DSProxy](https://docs.makerdao.com/build/dai.js/advanced-configuration/using-ds-proxy.md)
+- [Events](https://docs.makerdao.com/build/dai.js/advanced-configuration/events.md)
+- [Using multiple accounts](https://docs.makerdao.com/build/dai.js/advanced-configuration/using-multiple-accounts.md)
+- [Adding a new service](https://docs.makerdao.com/build/dai.js/advanced-configuration/adding-a-new-service.md)
+- [Single-Collateral Sai](https://docs.makerdao.com/build/dai.js/single-collateral-dai.md)
+- [Collateralized Debt Position](https://docs.makerdao.com/build/dai.js/single-collateral-dai/collateralized-debt-position.md)
+- [CDP Service](https://docs.makerdao.com/build/dai.js/single-collateral-dai/eth-cdp-service.md)
+- [Price Service](https://docs.makerdao.com/build/dai.js/single-collateral-dai/price-service.md)
+- [System Status](https://docs.makerdao.com/build/dai.js/single-collateral-dai/system-status.md)
+- [Tokens](https://docs.makerdao.com/build/dai.js/single-collateral-dai/tokens.md)
+- [Token Conversion](https://docs.makerdao.com/build/dai.js/single-collateral-dai/token-conversion.md)
+- [Exchange Service](https://docs.makerdao.com/build/dai.js/single-collateral-dai/exchange-service.md)
+- [Pymaker](https://docs.makerdao.com/build/pymaker.md): A Python API for the Maker Smart Contracts
+- [The Auctions of the Maker Protocol](https://docs.makerdao.com/keepers/the-auctions-of-the-maker-protocol.md)
+- [Auction Keepers](https://docs.makerdao.com/keepers/auction-keepers.md)
+- [Auction Keeper Bot Setup Guide](https://docs.makerdao.com/keepers/auction-keepers/auction-keeper-bot-setup-guide.md): Walkthrough how to set up your own Auction Keeper
+- [Market Maker Keepers](https://docs.makerdao.com/keepers/market-maker-keepers.md)
+- [Market Maker Keeper Bot Setup Guide](https://docs.makerdao.com/keepers/market-maker-keepers/market-maker-keeper-bot-setup-guide.md): A Marketing Making Bot Set up Guide
+- [Cage Keeper](https://docs.makerdao.com/keepers/cage-keeper.md): A Keeper to facilitate Emergency Shutdown
+- [Simple Arbitrage Keeper](https://docs.makerdao.com/keepers/simple-arbitrage-keeper.md)
+- [Chief Keeper](https://docs.makerdao.com/keepers/chief-keeper.md): Keeper that lifts the hat and streamlines executive actions
+- [Seth](https://docs.makerdao.com/clis/seth.md): A powerful command line tool created to interface with the Ethereum blockchain
+- [Multi Collateral Dai (MCD) CLI](https://docs.makerdao.com/clis/mcd-cli.md): Welcome to the MCD CLI
+- [Dai and Collateral Redemption during Emergency Shutdown](https://docs.makerdao.com/clis/dai-and-collateral-redemption-during-emergency-shutdown.md)
+- [Emergency Shutdown (ES) CLI](https://docs.makerdao.com/clis/emergency-shutdown-es-cli.md)
+- [Liquidations 1.2 System (Deprecated)](https://docs.makerdao.com/miscellaneous/liquidations-1.2-system-deprecated.md)
+- [Cat - Detailed Documentation](https://docs.makerdao.com/miscellaneous/liquidations-1.2-system-deprecated/cat-detailed-documentation.md): The Maker Protocol's Liquidation Agent
+- [Flipper - Detailed Documentation](https://docs.makerdao.com/miscellaneous/liquidations-1.2-system-deprecated/flipper-detailed-documentation.md): The Maker Protocol's Collateral Auction House
+- [SCD <> MCD Migration](https://docs.makerdao.com/miscellaneous/scd-mcd-migration-detailed-documentation.md): The Maker Protocol Upgrade Contract
+- [Upgrading to Multi-Collateral Dai Guide](https://docs.makerdao.com/miscellaneous/upgrading-to-multi-collateral-dai-guide.md)
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information, you can query the documentation dynamically by asking a question.
+Perform an HTTP GET request on a page URL with the `ask` query parameter:
+```
+GET https://docs.makerdao.com/readme.md?ask=<question>
+```
+The question should be specific, self-contained, and written in natural language.
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

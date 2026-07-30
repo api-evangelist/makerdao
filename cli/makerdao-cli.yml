@@ -1,0 +1,59 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.makerdao.com/clis/mcd-cli.md
+summary: >-
+  MakerDAO does not ship a single hosted-API CLI; instead the Maker Protocol
+  exposes a family of command-line tools for interacting with its Ethereum smart
+  contracts directly. The Multi-Collateral Dai (MCD) CLI is the primary developer
+  surface for Vault/collateral/Dai operations, alongside Seth (a general Ethereum
+  CLI from dapp.tools) and the Emergency Shutdown (ES) CLI. All operate against
+  on-chain contracts via environment-configured accounts, not a REST endpoint.
+clis:
+  - name: mcd-cli
+    label: Multi-Collateral Dai (MCD) CLI
+    docs: https://docs.makerdao.com/clis/mcd-cli.md
+    description: >-
+      Command-line interface for interacting with the MakerDAO system — manage
+      collateral, Dai, and CDP/Vault positions directly from the terminal.
+    install:
+      - curl https://dapp.tools/install | sh
+      - dapp pkg install mcd
+    config_env:
+      - ETH_FROM
+      - MCD_CHAIN
+    command_groups:
+      - group: Collateral & Urn Management
+        commands: [gem, urn, frob, ilk, bite, poke, wrap, unwrap]
+      - group: Dai Operations
+        commands: [dai join, dai exit, dai balance]
+      - group: Auction Functions
+        commands: [flips, flap, flop, flog]
+      - group: System Information
+        commands: [cdp, debt, drip, line, live, vice, vow]
+      - group: Utilities
+        commands: [bites, frobs, help]
+    examples:
+      - description: Lock collateral and draw Dai
+        command: mcd --ilk=ETH-A frob 100 500
+      - description: Withdraw Dai for external use
+        command: mcd dai exit 500
+      - description: Join collateral directly
+        command: mcd --ilk=ETH-A gem join 100
+    official: true
+  - name: seth
+    label: Seth
+    docs: https://docs.makerdao.com/clis/seth.md
+    description: >-
+      A command-line tool (from dapp.tools) to interface with the Ethereum
+      blockchain — send transactions, query contract state, and script
+      interactions used throughout Maker Protocol tooling.
+    official: true
+  - name: es-cli
+    label: Emergency Shutdown (ES) CLI
+    docs: https://docs.makerdao.com/clis/emergency-shutdown-es-cli.md
+    description: >-
+      CLI for the Emergency Shutdown process — used to redeem Dai and collateral
+      during a Maker Protocol shutdown event.
+    related_docs:
+      - https://docs.makerdao.com/clis/dai-and-collateral-redemption-during-emergency-shutdown.md
+    official: true

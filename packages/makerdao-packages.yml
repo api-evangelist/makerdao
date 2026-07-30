@@ -1,0 +1,46 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.npmjs.com/~makerdao and https://docs.makerdao.com/build/dai.js.md
+packages:
+  - language: javascript
+    registry: npm
+    name: "@makerdao/dai"
+    url: https://www.npmjs.com/package/@makerdao/dai
+    install: npm install @makerdao/dai
+    description: >-
+      Dai.js — the official JavaScript/TypeScript library for interacting with the
+      Maker Protocol (Multi-Collateral Dai) smart contract system: Vaults, DSR,
+      collateral types, currency units, and system data.
+    repository: https://github.com/makerdao/dai.js
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@makerdao/dai-plugin-mcd"
+    url: https://www.npmjs.com/package/@makerdao/dai-plugin-mcd
+    install: npm install @makerdao/dai-plugin-mcd
+    description: >-
+      Official Dai.js plugin adding Multi-Collateral Dai (MCD) support — Vault
+      management, collateral join adapters, and CDP operations.
+    repository: https://github.com/makerdao/dai.js
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@makerdao/multicall"
+    url: https://www.npmjs.com/package/@makerdao/multicall
+    install: npm install @makerdao/multicall
+    description: >-
+      Official blockchain state-management library for dapps — aggregates many
+      contract read calls into a single request against the Maker Protocol.
+    repository: https://github.com/makerdao/multicall.js
+    official: true
+  - language: python
+    registry: github
+    name: pymaker
+    url: https://github.com/sky-ecosystem/pymaker
+    install: git clone https://github.com/makerdao/pymaker.git && pip3 install -r requirements.txt
+    description: >-
+      Pymaker — the official Python API for the Maker smart contracts, used to
+      build keepers and utilities that interact with the Dai stablecoin ecosystem
+      on Ethereum. Distributed from source (AGPL-3.0); not published to PyPI.
+    repository: https://github.com/sky-ecosystem/pymaker
+    official: true
