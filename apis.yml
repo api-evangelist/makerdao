@@ -1,8 +1,28 @@
 aid: makerdao
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/makerdao.png
 name: MakerDAO
-description: 'MakerDAO is a company surfaced as a portfolio company of paradigm and added to the API Evangelist
-  network as a stub for enrichment. Sector: crypto-defi. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  MakerDAO is the decentralized autonomous organization behind the Maker Protocol,
+  an Ethereum-based smart-contract system that lets anyone, anywhere generate the
+  Dai (DAI) stablecoin by locking crypto collateral into Vaults. The protocol
+  governs collateral types, stability fees, the Dai Savings Rate (DSR), collateral
+  liquidation auctions, and oracle price feeds through on-chain governance by MKR
+  token holders. Rather than a hosted REST API, developers integrate directly with
+  the Maker Protocol smart contracts and through the official Dai.js JavaScript /
+  TypeScript SDK, the multicall state-management library, and published developer
+  guides. MakerDAO has since rebranded to the Sky Ecosystem (USDS / SKY). Surfaced
+  as a portfolio company of Paradigm and enriched by the API Evangelist pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/makerdao/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Crypto Defi
+- DeFi
+- Stablecoin
+- Ethereum
+- Smart Contracts
+- Blockchain
+- Governance
+- Dai
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,40 @@ maintainers:
 common:
 - type: Website
   url: https://makerdao.com
+- type: Documentation
+  url: https://docs.makerdao.com
+- type: DeveloperPortal
+  url: https://docs.makerdao.com/build/developer-guides-and-tutorials.md
+- type: GettingStarted
+  url: https://docs.makerdao.com/getting-started/maker-protocol-101.md
+- type: GitHubOrganization
+  url: https://github.com/sky-ecosystem
+- type: Blog
+  url: https://blog.makerdao.com
+- type: Support
+  url: https://forum.makerdao.com
+- type: SDKs
+  url: packages/makerdao-packages.yml
+- type: Packages
+  url: packages/makerdao-packages.yml
+- type: LLMsTxt
+  url: llms/makerdao-llms.txt
+- type: CLI
+  url: cli/makerdao-cli.yml
+- type: Lifecycle
+  url: lifecycle/makerdao-lifecycle.yml
+- type: Deprecation
+  url: lifecycle/makerdao-lifecycle.yml
+- type: Security
+  url: https://docs.makerdao.com/security/security.makerdao.com.md
+- type: VulnerabilityDisclosure
+  url: security/makerdao-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/makerdao-domain-security.yml
+- type: Governance
+  url: https://vote.makerdao.com
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
