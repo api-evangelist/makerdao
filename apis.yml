@@ -39,6 +39,7 @@ x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - paradigm
+- a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
@@ -105,6 +106,12 @@ common:
   url: security/makerdao-domain-security.yml
 - type: Governance
   url: https://vote.makerdao.com
+- type: Portal
+  url: https://developers.skyeco.com/
+- type: DeveloperPortal
+  url: https://developers.skyeco.com/
+- type: Blog
+  url: https://sky.money/blog
 x-enrichment:
   date: '2026-07-20'
   status: enriched
